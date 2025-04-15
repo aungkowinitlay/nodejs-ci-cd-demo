@@ -58,6 +58,6 @@ jobs:
 
       - name: Deploy to Production
         run: |
-         echo "✅ Deploying to environment: 
+         echo "✅ Deploying to environment: ${ secrets.DEPLOY_ENV }"
          ls dist
          cat dist/index.html
