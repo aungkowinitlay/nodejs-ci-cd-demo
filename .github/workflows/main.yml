@@ -57,5 +57,5 @@ jobs:
 
       - name: Deploy to Production
         run: |
-          echo "✅ Deploying to environment: ${{ secrets.DEPLOY_ENV }}"
-          ls dist
+         echo "✅ Deploying to environment: ${{ secrets.DEPLOY_ENV }}"
+         ls dist
