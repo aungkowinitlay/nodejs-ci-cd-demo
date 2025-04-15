@@ -54,8 +54,10 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist
+          path: dist
 
       - name: Deploy to Production
         run: |
-         echo "✅ Deploying to environment: ${{ secrets.DEPLOY_ENV }}"
+         echo "✅ Deploying to environment: 
          ls dist
+         cat dist/index.html
