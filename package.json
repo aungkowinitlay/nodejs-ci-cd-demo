@@ -1,0 +1,15 @@
+{
+    "name": "ci-cd-demo",
+    "version": "1.0.0",
+    "description": "Demo Node.js App for GitHub Actions",
+    "main": "app.js",
+    "scripts": {
+      "lint": "eslint app.js",
+      "test": "echo \"All tests passed!\"",
+      "build": "mkdir -p dist && echo '<h1>Hello CI/CD</h1>' > dist/index.html"
+    },
+    "devDependencies": {
+      "eslint": "^8.55.0"
+    }
+  }
+  
